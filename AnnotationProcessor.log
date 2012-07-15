@@ -1,0 +1,364 @@
+Jun 16, 2012 6:11:47 PM - NOTE : Start Processing Annotations
+Jun 16, 2012 6:11:47 PM - NOTE : Processing [public void testMocks() throws java.lang.ClassNotFoundException]
+Jun 16, 2012 6:11:47 PM - NOTE : Adding Class to Mocking List: sample.ClassToMock
+Jun 16, 2012 6:11:47 PM - ERROR : Could not find sample.ClassToMock
+Jun 16, 2012 6:11:47 PM - ERROR : java.lang.ClassNotFoundException: sample.ClassToMock
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:307)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:247)
+	at com.google.android.testing.mocking.UsesMocksProcessor.findClassesToMock(UsesMocksProcessor.java:179)
+	at com.google.android.testing.mocking.UsesMocksProcessor.getClassesToMock(UsesMocksProcessor.java:125)
+	at com.google.android.testing.mocking.UsesMocksProcessor.process(UsesMocksProcessor.java:86)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.handleProcessor(RoundDispatcher.java:139)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.round(RoundDispatcher.java:121)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.BaseAnnotationProcessorManager.processAnnotations(BaseAnnotationProcessorManager.java:159)
+	at org.eclipse.jdt.internal.apt.pluggable.core.dispatch.IdeAnnotationProcessorManager.processAnnotations(IdeAnnotationProcessorManager.java:134)
+	at org.eclipse.jdt.internal.compiler.Compiler.processAnnotations(Compiler.java:809)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:428)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:364)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:321)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:301)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:134)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:265)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:193)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:629)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:172)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:203)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:255)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:258)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:343)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+Jun 16, 2012 6:11:47 PM - NOTE : Known Classpath: 
+Jun 16, 2012 6:11:47 PM - NOTE : file:/Users/ado/Lavoro/testing/Android%20mock/AndroidMock-1.1/AndroidMockGenerator.jar
+Jun 16, 2012 6:11:47 PM - NOTE : file:/Users/ado/android-sdk-mac_x86/platforms/android-15/android.jar
+Jun 16, 2012 6:11:47 PM - NOTE : file:/Users/ado/Documents/androidmockTest/AndroidMock/bin/
+Jun 16, 2012 6:11:47 PM - NOTE : Found 0 classes to mock
+Jun 16, 2012 6:11:47 PM - NOTE : Found 0 mocked classes to save
+Jun 16, 2012 6:11:47 PM - NOTE : Finished Processing Mocks
+Jun 16, 2012 6:11:47 PM - NOTE : Start Processing Annotations
+Jun 16, 2012 6:11:47 PM - NOTE : Processing []
+Jun 16, 2012 6:11:47 PM - NOTE : Found 0 classes to mock
+Jun 16, 2012 6:11:47 PM - NOTE : Found 0 mocked classes to save
+Jun 16, 2012 6:11:47 PM - NOTE : Finished Processing Mocks
+Jun 16, 2012 6:21:53 PM - NOTE : Start Processing Annotations
+Jun 16, 2012 6:21:53 PM - NOTE : Processing [public void testMocks() throws java.lang.ClassNotFoundException]
+Jun 16, 2012 6:21:53 PM - NOTE : Adding Class to Mocking List: sample.ClassToMock
+Jun 16, 2012 6:21:53 PM - ERROR : Could not find sample.ClassToMock
+Jun 16, 2012 6:21:53 PM - ERROR : java.lang.ClassNotFoundException: sample.ClassToMock
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:307)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:247)
+	at com.google.android.testing.mocking.UsesMocksProcessor.findClassesToMock(UsesMocksProcessor.java:179)
+	at com.google.android.testing.mocking.UsesMocksProcessor.getClassesToMock(UsesMocksProcessor.java:125)
+	at com.google.android.testing.mocking.UsesMocksProcessor.process(UsesMocksProcessor.java:86)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.handleProcessor(RoundDispatcher.java:139)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.round(RoundDispatcher.java:121)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.BaseAnnotationProcessorManager.processAnnotations(BaseAnnotationProcessorManager.java:159)
+	at org.eclipse.jdt.internal.apt.pluggable.core.dispatch.IdeAnnotationProcessorManager.processAnnotations(IdeAnnotationProcessorManager.java:134)
+	at org.eclipse.jdt.internal.compiler.Compiler.processAnnotations(Compiler.java:809)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:428)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:364)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:321)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:301)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:134)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:265)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:193)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:629)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:172)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:203)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:255)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:258)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:343)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+Jun 16, 2012 6:21:53 PM - NOTE : Known Classpath: 
+Jun 16, 2012 6:21:53 PM - NOTE : file:/Users/ado/Lavoro/testing/Android%20mock/AndroidMock-1.1/AndroidMockGenerator.jar
+Jun 16, 2012 6:21:53 PM - NOTE : file:/Users/ado/android-sdk-mac_x86/platforms/android-15/android.jar
+Jun 16, 2012 6:21:53 PM - NOTE : file:/Users/ado/Documents/androidmockTest/AndroidMock/bin/
+Jun 16, 2012 6:21:53 PM - NOTE : Found 0 classes to mock
+Jun 16, 2012 6:21:53 PM - NOTE : Found 0 mocked classes to save
+Jun 16, 2012 6:21:53 PM - NOTE : Finished Processing Mocks
+Jun 16, 2012 6:21:53 PM - NOTE : Start Processing Annotations
+Jun 16, 2012 6:21:53 PM - NOTE : Processing []
+Jun 16, 2012 6:21:53 PM - NOTE : Found 0 classes to mock
+Jun 16, 2012 6:21:53 PM - NOTE : Found 0 mocked classes to save
+Jun 16, 2012 6:21:53 PM - NOTE : Finished Processing Mocks
+Jul 15, 2012 10:24:17 AM - NOTE : Start Processing Annotations
+Jul 15, 2012 10:24:17 AM - NOTE : Processing [public void testMocks() throws java.lang.ClassNotFoundException]
+Jul 15, 2012 10:24:17 AM - NOTE : Adding Class to Mocking List: sample.ClassToMock
+Jul 15, 2012 10:24:17 AM - ERROR : Could not find sample.ClassToMock
+Jul 15, 2012 10:24:17 AM - ERROR : java.lang.ClassNotFoundException: sample.ClassToMock
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:307)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:247)
+	at com.google.android.testing.mocking.UsesMocksProcessor.findClassesToMock(UsesMocksProcessor.java:179)
+	at com.google.android.testing.mocking.UsesMocksProcessor.getClassesToMock(UsesMocksProcessor.java:125)
+	at com.google.android.testing.mocking.UsesMocksProcessor.process(UsesMocksProcessor.java:86)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.handleProcessor(RoundDispatcher.java:139)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.round(RoundDispatcher.java:121)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.BaseAnnotationProcessorManager.processAnnotations(BaseAnnotationProcessorManager.java:159)
+	at org.eclipse.jdt.internal.apt.pluggable.core.dispatch.IdeAnnotationProcessorManager.processAnnotations(IdeAnnotationProcessorManager.java:134)
+	at org.eclipse.jdt.internal.compiler.Compiler.processAnnotations(Compiler.java:809)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:428)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:364)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.compile(BatchImageBuilder.java:178)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:301)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:60)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:184)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:629)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:172)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:203)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:255)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:258)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:343)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+Jul 15, 2012 10:24:17 AM - NOTE : Known Classpath: 
+Jul 15, 2012 10:24:17 AM - NOTE : file:/Users/ado/Lavoro/testing/Android%20mock/AndroidMock-1.1/AndroidMockGenerator.jar
+Jul 15, 2012 10:24:17 AM - NOTE : file:/Users/ado/android-sdk-mac_x86/platforms/android-15/android.jar
+Jul 15, 2012 10:24:17 AM - NOTE : file:/Users/ado/Documents/androidmockTest/AndroidMock/bin/
+Jul 15, 2012 10:24:17 AM - NOTE : Found 0 classes to mock
+Jul 15, 2012 10:24:17 AM - NOTE : Found 0 mocked classes to save
+Jul 15, 2012 10:24:17 AM - NOTE : Finished Processing Mocks
+Jul 15, 2012 10:24:17 AM - NOTE : Start Processing Annotations
+Jul 15, 2012 10:24:17 AM - NOTE : Processing []
+Jul 15, 2012 10:24:17 AM - NOTE : Found 0 classes to mock
+Jul 15, 2012 10:24:17 AM - NOTE : Found 0 mocked classes to save
+Jul 15, 2012 10:24:17 AM - NOTE : Finished Processing Mocks
+Jul 15, 2012 10:24:18 AM - NOTE : Start Processing Annotations
+Jul 15, 2012 10:24:18 AM - NOTE : Processing [public void testMocks() throws java.lang.ClassNotFoundException]
+Jul 15, 2012 10:24:18 AM - NOTE : Adding Class to Mocking List: sample.ClassToMock
+Jul 15, 2012 10:24:18 AM - ERROR : Could not find sample.ClassToMock
+Jul 15, 2012 10:24:18 AM - ERROR : java.lang.ClassNotFoundException: sample.ClassToMock
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:307)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:247)
+	at com.google.android.testing.mocking.UsesMocksProcessor.findClassesToMock(UsesMocksProcessor.java:179)
+	at com.google.android.testing.mocking.UsesMocksProcessor.getClassesToMock(UsesMocksProcessor.java:125)
+	at com.google.android.testing.mocking.UsesMocksProcessor.process(UsesMocksProcessor.java:86)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.handleProcessor(RoundDispatcher.java:139)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.round(RoundDispatcher.java:121)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.BaseAnnotationProcessorManager.processAnnotations(BaseAnnotationProcessorManager.java:159)
+	at org.eclipse.jdt.internal.apt.pluggable.core.dispatch.IdeAnnotationProcessorManager.processAnnotations(IdeAnnotationProcessorManager.java:134)
+	at org.eclipse.jdt.internal.compiler.Compiler.processAnnotations(Compiler.java:809)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:428)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:364)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.compile(BatchImageBuilder.java:178)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:301)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:60)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:184)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:629)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:172)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:203)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:255)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:258)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:343)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+Jul 15, 2012 10:24:18 AM - NOTE : Known Classpath: 
+Jul 15, 2012 10:24:18 AM - NOTE : file:/Users/ado/Lavoro/testing/Android%20mock/AndroidMock-1.1/AndroidMockGenerator.jar
+Jul 15, 2012 10:24:18 AM - NOTE : file:/Users/ado/android-sdk-mac_x86/platforms/android-15/android.jar
+Jul 15, 2012 10:24:18 AM - NOTE : file:/Users/ado/Documents/androidmockTest/AndroidMock/bin/
+Jul 15, 2012 10:24:18 AM - NOTE : Found 0 classes to mock
+Jul 15, 2012 10:24:18 AM - NOTE : Found 0 mocked classes to save
+Jul 15, 2012 10:24:18 AM - NOTE : Finished Processing Mocks
+Jul 15, 2012 10:24:18 AM - NOTE : Start Processing Annotations
+Jul 15, 2012 10:24:18 AM - NOTE : Processing []
+Jul 15, 2012 10:24:18 AM - NOTE : Found 0 classes to mock
+Jul 15, 2012 10:24:18 AM - NOTE : Found 0 mocked classes to save
+Jul 15, 2012 10:24:18 AM - NOTE : Finished Processing Mocks
+Jul 15, 2012 11:54:58 AM - NOTE : Start Processing Annotations
+Jul 15, 2012 11:54:58 AM - NOTE : Processing [public void testMocks() throws java.lang.ClassNotFoundException]
+Jul 15, 2012 11:54:58 AM - NOTE : Adding Class to Mocking List: sample.ClassToMock
+Jul 15, 2012 11:54:58 AM - ERROR : Could not find sample.ClassToMock
+Jul 15, 2012 11:54:58 AM - ERROR : java.lang.ClassNotFoundException: sample.ClassToMock
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:307)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:247)
+	at com.google.android.testing.mocking.UsesMocksProcessor.findClassesToMock(UsesMocksProcessor.java:179)
+	at com.google.android.testing.mocking.UsesMocksProcessor.getClassesToMock(UsesMocksProcessor.java:125)
+	at com.google.android.testing.mocking.UsesMocksProcessor.process(UsesMocksProcessor.java:86)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.handleProcessor(RoundDispatcher.java:139)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.round(RoundDispatcher.java:121)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.BaseAnnotationProcessorManager.processAnnotations(BaseAnnotationProcessorManager.java:159)
+	at org.eclipse.jdt.internal.apt.pluggable.core.dispatch.IdeAnnotationProcessorManager.processAnnotations(IdeAnnotationProcessorManager.java:134)
+	at org.eclipse.jdt.internal.compiler.Compiler.processAnnotations(Compiler.java:809)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:428)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:364)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.compile(BatchImageBuilder.java:178)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:301)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:60)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:629)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:172)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:203)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:255)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:258)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:343)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+Jul 15, 2012 11:54:58 AM - NOTE : Known Classpath: 
+Jul 15, 2012 11:54:58 AM - NOTE : file:/Users/ado/Lavoro/testing/Android%20mock/AndroidMock-1.1/AndroidMockGenerator.jar
+Jul 15, 2012 11:54:58 AM - NOTE : file:/Users/ado/android-sdk-mac_x86/platforms/android-15/android.jar
+Jul 15, 2012 11:54:58 AM - NOTE : file:/Users/ado/Documents/androidmockTest/AndroidMock/bin/
+Jul 15, 2012 11:54:58 AM - NOTE : Found 0 classes to mock
+Jul 15, 2012 11:54:58 AM - NOTE : Found 0 mocked classes to save
+Jul 15, 2012 11:54:58 AM - NOTE : Finished Processing Mocks
+Jul 15, 2012 11:54:58 AM - NOTE : Start Processing Annotations
+Jul 15, 2012 11:54:58 AM - NOTE : Processing []
+Jul 15, 2012 11:54:58 AM - NOTE : Found 0 classes to mock
+Jul 15, 2012 11:54:58 AM - NOTE : Found 0 mocked classes to save
+Jul 15, 2012 11:54:58 AM - NOTE : Finished Processing Mocks
+Jul 15, 2012 11:55:38 AM - NOTE : Start Processing Annotations
+Jul 15, 2012 11:55:38 AM - NOTE : Processing [public void testMocks() throws java.lang.ClassNotFoundException]
+Jul 15, 2012 11:55:38 AM - NOTE : Adding Class to Mocking List: sample.ClassToMock
+Jul 15, 2012 11:55:38 AM - ERROR : Could not find sample.ClassToMock
+Jul 15, 2012 11:55:38 AM - ERROR : java.lang.ClassNotFoundException: sample.ClassToMock
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:307)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:247)
+	at com.google.android.testing.mocking.UsesMocksProcessor.findClassesToMock(UsesMocksProcessor.java:179)
+	at com.google.android.testing.mocking.UsesMocksProcessor.getClassesToMock(UsesMocksProcessor.java:125)
+	at com.google.android.testing.mocking.UsesMocksProcessor.process(UsesMocksProcessor.java:86)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.handleProcessor(RoundDispatcher.java:139)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.round(RoundDispatcher.java:121)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.BaseAnnotationProcessorManager.processAnnotations(BaseAnnotationProcessorManager.java:159)
+	at org.eclipse.jdt.internal.apt.pluggable.core.dispatch.IdeAnnotationProcessorManager.processAnnotations(IdeAnnotationProcessorManager.java:134)
+	at org.eclipse.jdt.internal.compiler.Compiler.processAnnotations(Compiler.java:809)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:428)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:364)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.compile(BatchImageBuilder.java:178)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:301)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:60)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:629)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:172)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:203)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:255)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:258)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:343)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+Jul 15, 2012 11:55:38 AM - NOTE : Known Classpath: 
+Jul 15, 2012 11:55:38 AM - NOTE : file:/Users/ado/Lavoro/testing/Android%20mock/AndroidMock-1.1/AndroidMockGenerator.jar
+Jul 15, 2012 11:55:38 AM - NOTE : file:/Users/ado/android-sdk-mac_x86/platforms/android-15/android.jar
+Jul 15, 2012 11:55:38 AM - NOTE : file:/Users/ado/Documents/androidmockTest/AndroidMock/bin/
+Jul 15, 2012 11:55:38 AM - NOTE : Found 0 classes to mock
+Jul 15, 2012 11:55:38 AM - NOTE : Found 0 mocked classes to save
+Jul 15, 2012 11:55:38 AM - NOTE : Finished Processing Mocks
+Jul 15, 2012 11:55:38 AM - NOTE : Start Processing Annotations
+Jul 15, 2012 11:55:38 AM - NOTE : Processing []
+Jul 15, 2012 11:55:38 AM - NOTE : Found 0 classes to mock
+Jul 15, 2012 11:55:38 AM - NOTE : Found 0 mocked classes to save
+Jul 15, 2012 11:55:38 AM - NOTE : Finished Processing Mocks
+Jul 15, 2012 12:53:10 PM - NOTE : Start Processing Annotations
+Jul 15, 2012 12:53:11 PM - NOTE : Processing [public void testMocks() throws java.lang.ClassNotFoundException]
+Jul 15, 2012 12:53:11 PM - NOTE : Adding Class to Mocking List: sample.ClassToMock
+Jul 15, 2012 12:53:11 PM - ERROR : Could not find sample.ClassToMock
+Jul 15, 2012 12:53:11 PM - ERROR : java.lang.ClassNotFoundException: sample.ClassToMock
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:307)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:247)
+	at com.google.android.testing.mocking.UsesMocksProcessor.findClassesToMock(UsesMocksProcessor.java:179)
+	at com.google.android.testing.mocking.UsesMocksProcessor.getClassesToMock(UsesMocksProcessor.java:125)
+	at com.google.android.testing.mocking.UsesMocksProcessor.process(UsesMocksProcessor.java:86)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.handleProcessor(RoundDispatcher.java:139)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.round(RoundDispatcher.java:121)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.BaseAnnotationProcessorManager.processAnnotations(BaseAnnotationProcessorManager.java:159)
+	at org.eclipse.jdt.internal.apt.pluggable.core.dispatch.IdeAnnotationProcessorManager.processAnnotations(IdeAnnotationProcessorManager.java:134)
+	at org.eclipse.jdt.internal.compiler.Compiler.processAnnotations(Compiler.java:809)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:428)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:364)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.compile(BatchImageBuilder.java:178)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:301)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:60)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:629)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:172)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:203)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:255)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:258)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:343)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+Jul 15, 2012 12:53:11 PM - NOTE : Known Classpath: 
+Jul 15, 2012 12:53:11 PM - NOTE : file:/Users/ado/Lavoro/testing/Android%20mock/AndroidMock-1.1/AndroidMockGenerator.jar
+Jul 15, 2012 12:53:11 PM - NOTE : file:/Users/ado/android-sdk-mac_x86/platforms/android-15/android.jar
+Jul 15, 2012 12:53:11 PM - NOTE : file:/Users/ado/Documents/androidmockTest/AndroidMock/bin/
+Jul 15, 2012 12:53:11 PM - NOTE : Found 0 classes to mock
+Jul 15, 2012 12:53:11 PM - NOTE : Found 0 mocked classes to save
+Jul 15, 2012 12:53:11 PM - NOTE : Finished Processing Mocks
+Jul 15, 2012 12:53:11 PM - NOTE : Start Processing Annotations
+Jul 15, 2012 12:53:11 PM - NOTE : Processing []
+Jul 15, 2012 12:53:11 PM - NOTE : Found 0 classes to mock
+Jul 15, 2012 12:53:11 PM - NOTE : Found 0 mocked classes to save
+Jul 15, 2012 12:53:11 PM - NOTE : Finished Processing Mocks
